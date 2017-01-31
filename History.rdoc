@@ -1,3 +1,9 @@
+=== 2.0.0 / 2017-01-31
+
+* 1 major enhancement:
+
+  * Forked entirely and added configuration via ~/.gem/stfu.rc.
+
 === 1.0.0 / 2017-01-23
 
 * 1 major enhancement
