@@ -3,3 +3,4 @@ Manifest.txt
 README.rdoc
 Rakefile
 lib/gem/stfu.rb
+lib/rubygems_plugin.rb

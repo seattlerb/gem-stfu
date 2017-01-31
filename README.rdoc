@@ -5,7 +5,32 @@ rdoc :: http://docs.seattlerb.org/gem-stfu
 
 == DESCRIPTION:
 
-A shorter gem name than gem-shut-the-fuck-up
+A fork of gem-shut-the-fuck-up that provides configurable silencing of
+post-install-messages.
+
+== SYNOPSIS
+
+Let's say you install a gem which has a post-install message that bugs
+you:
+
+    % gem install bundler
+    Fetching: bundler-1.14.3.gem (100%)
+    blah blah blah post-install guilt trip blah blah
+    Successfully installed bundler-1.14.3
+    1 gem installed
+
+Now, all you have to do is add that gem name to the configuration:
+
+    % echo bundler >> ~/.gem/stfu.rc
+
+And your worries are no more:
+
+    % gem install bundler
+    Fetching: bundler-1.14.3.gem (100%)
+    Successfully installed bundler-1.14.3
+    1 gem installed
+
+Voilà! Guilt-trip free installs!
 
 == FEATURES/PROBLEMS:
 
